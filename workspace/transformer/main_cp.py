@@ -21,9 +21,9 @@ from torch.nn.utils import clip_grad_norm_
 from torch.utils.data import Dataset, DataLoader
 
 
-import saver
-from models import TransformerModel, network_paras
-from utils import write_midi, get_random_string
+import emopia.workspace.transformer.saver
+from emopia.workspace.transformer.models import TransformerModel, network_paras
+from emopia.workspace.transformer.utils import write_midi, get_random_string
 
 
 ################################################################################

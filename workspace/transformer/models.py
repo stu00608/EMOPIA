@@ -4,7 +4,7 @@ import math
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from utils import sampling
+from emopia.workspace.transformer.utils import sampling
 
 # import fast_transformers_local
 from fast_transformers.builders import TransformerEncoderBuilder as TransformerEncoderBuilder_local
